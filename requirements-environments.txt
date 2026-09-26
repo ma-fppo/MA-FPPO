@@ -1,0 +1,8 @@
+# Legacy Gym / MuJoCo interfaces used by the benchmark adapters.
+# Install with Python 3.8 and pip==23.0.1, setuptools==65.5.0, wheel==0.38.4.
+gym==0.12.1
+mujoco-py==2.1.2.14
+Cython==0.29.28
+# SC2 / maps are installed separately; see README.md.
+git+https://github.com/oxwhirl/smac.git@d6aab33f76abc3849c50463a8592a84f59a5ef84
+git+https://github.com/oxwhirl/smacv2.git@577ab5a2cff2391f8df582da5731ea9cd6adf3c6

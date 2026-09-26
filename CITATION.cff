@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the MA-FPPO preprint when using this implementation."
+title: "MA-FPPO: Multi-Agent Flow-Pretrained Policy Optimization"
+type: software
+authors:
+  - family-names: Zou
+    given-names: Guowei
+    affiliation: "Sun Yat-sen University; National University of Singapore"
+  - family-names: Chen
+    given-names: Haonan
+  - family-names: Wang
+    given-names: Haitao
+  - family-names: Zhang
+    given-names: Beiwen
+  - family-names: Yan
+    given-names: Na
+  - family-names: Wu
+    given-names: Hejun

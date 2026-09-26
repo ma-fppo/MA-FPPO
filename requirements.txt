@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+# Linux benchmark environment; core and helper versions verified from the experiment runtime.
+numpy==1.23.5
+torch==1.12.1+cu113
+pygame==2.6.1
+pyglet==1.5.0
+cloudpickle==1.3.0
+psutil==7.2.2
+portpicker==1.6.0
+PyYAML==6.0.3
+protobuf==3.20.3

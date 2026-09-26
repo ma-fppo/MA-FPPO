@@ -1,0 +1,3 @@
+# CPU-only mathematical and synthetic integration tests.
+numpy>=1.23,<3
+torch>=1.12
