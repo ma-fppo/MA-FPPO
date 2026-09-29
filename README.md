@@ -1,6 +1,6 @@
 # MA-FPPO: Multi-Agent Flow-Pretrained Policy Optimization
 
-Guowei Zou, Haonan Chen, Haitao Wang, Beiwen Zhang, Na Yan, Hejun Wu.
+<a href="https://guowei-zou.github.io/Guowei-Zou/">Guowei Zou</a>, Haonan Chen, Haitao Wang, Beiwen Zhang, Na Yan, Hejun Wu.
 
 Sun Yat-sen University · National University of Singapore
 
