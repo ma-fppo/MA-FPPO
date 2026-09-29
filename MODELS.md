@@ -1,5 +1,7 @@
 # Trained models
 
+Download the five benchmark archives and checksum manifests from [Hugging Face: ma-fppo/MA-FPPO](https://huggingface.co/ma-fppo/MA-FPPO). Extract the archives you need into the same directory.
+
 The named model release provides pretraining and online checkpoints for 48 main-experiment configurations. Each configuration has pretraining and 50M-or-recorded-budget online checkpoints. Two additional 100M checkpoints reproduce the 2halfcheetah Good/Medium main-table endpoints. The SMACv2 Terran Random training recipe is included in the code, but no corresponding completed model was located and none is claimed in the model release.
 
 These are the historical training-seed-0 models. The code's default seeds 0/1/2 are for new runs. The manifest records actual training steps, including the 15M 3m/2s3z runs and the recorded 8m early endpoints. No model is relabeled as a different training seed or budget.
