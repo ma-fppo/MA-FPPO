@@ -4,7 +4,14 @@ Guowei Zou, Haonan Chen, Haitao Wang, Beiwen Zhang, Na Yan, Hejun Wu.
 
 Sun Yat-sen University · National University of Singapore
 
-[Project page](https://ma-fppo.github.io/) · [Paper (arXiv:2609.32594)](https://arxiv.org/abs/2609.32594) · [PDF](https://arxiv.org/pdf/2609.32594) · [Models](https://huggingface.co/ma-fppo/MA-FPPO)
+<p align="center">
+  <a href="https://ma-fppo.github.io/"><img src="assets/resource-buttons/project-page.svg" alt="Project Page"></a>
+  <a href="https://arxiv.org/abs/2609.32594"><img src="assets/resource-buttons/paper.svg" alt="Paper"></a>
+  <a href="https://github.com/ma-fppo/MA-FPPO"><img src="assets/resource-buttons/code.svg" alt="Code"></a>
+  <a href="https://huggingface.co/ma-fppo/MA-FPPO"><img src="assets/resource-buttons/models.svg" alt="Models"></a>
+  <a href="https://huggingface.co/datasets/Guowei-Zou/CoFlow-datasets"><img src="assets/resource-buttons/datasets.svg" alt="Datasets"></a>
+  <a href="https://ma-fppo.github.io/assets/videos/presentation.mp4"><img src="assets/resource-buttons/video.svg" alt="Video"></a>
+</p>
 
 This source release contains MA-FPPO's offline pretraining and online fine-tuning implementation, with 49 main-experiment recipes.
 
