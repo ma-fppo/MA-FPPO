@@ -4,7 +4,7 @@ Guowei Zou, Haonan Chen, Haitao Wang, Beiwen Zhang, Na Yan, Hejun Wu.
 
 Sun Yat-sen University · National University of Singapore
 
-[Project page](https://ma-fppo.github.io/) · [Paper (arXiv:2609.32594)](https://arxiv.org/abs/2609.32594) · [PDF](https://arxiv.org/pdf/2609.32594)
+[Project page](https://ma-fppo.github.io/) · [Paper (arXiv:2609.32594)](https://arxiv.org/abs/2609.32594) · [PDF](https://arxiv.org/pdf/2609.32594) · [Models](https://huggingface.co/ma-fppo/MA-FPPO)
 
 This source release contains MA-FPPO's offline pretraining and online fine-tuning implementation, with 49 main-experiment recipes.
 
@@ -14,6 +14,10 @@ This source release contains MA-FPPO's offline pretraining and online fine-tunin
 - `tests/`: tests that do not require benchmark datasets or simulators.
 
 No datasets, trained checkpoints, logs, Git history, machine-specific launch scripts, or simulator binaries are included. See [DATA.md](DATA.md) for benchmark sources and array formats, and [NOTICE.md](NOTICE.md) for upstream licenses.
+
+## Trained models
+
+[Download the trained models](https://huggingface.co/ma-fppo/MA-FPPO): 98 checkpoints across 48 main-experiment settings, packaged into five benchmark archives. Each setting includes pretrained and online fine-tuned weights, with two additional 100M checkpoints for 2halfcheetah Good/Medium. These are historical training-seed-0 models. See the model card and `MANIFEST.json` for training steps and SHA-256 checksums, and [MODELS.md](MODELS.md) for loading instructions.
 
 ## Installation
 
