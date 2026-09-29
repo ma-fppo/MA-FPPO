@@ -4,6 +4,8 @@ Guowei Zou, Haonan Chen, Haitao Wang, Beiwen Zhang, Na Yan, Hejun Wu.
 
 Sun Yat-sen University · National University of Singapore
 
+[Project page](https://ma-fppo.github.io/) · [Paper (arXiv:2609.32594)](https://arxiv.org/abs/2609.32594) · [PDF](https://arxiv.org/pdf/2609.32594)
+
 This source release contains MA-FPPO's offline pretraining and online fine-tuning implementation, with 49 main-experiment recipes.
 
 - `main_experiments/runtime/`: MPE, MA-MuJoCo with local observations, OMIGA MuJoCo with full observations, SMAC, and SMACv2. The three local-observation MuJoCo task adapters are kept separate because their observation and action layouts differ.
@@ -83,3 +85,17 @@ Repeat with evaluation seeds `80000` and `90000`. Use `python tools/select_check
 The release is assembled from preserved experiment sources and recorded configurations. Packaging changes are limited to portable paths/entrypoints, configurable host resource reserves, a data audit that handles every supplied discrete recipe, and a default launcher for three independent training seeds. The Spread Medium-Replay sampler uses its recorded shorter-data adaptation. Model equations, optimization objectives, and the supplied training budgets are retained.
 
 The included checks cover syntax, all recipe paths, finite pretraining updates in seven runtimes, Gaussian mean inheritance and updates, raw-action likelihoods, GAE boundaries, discrete masks, and portable evaluation checkpoint loading. Full benchmark retraining and simulator installation were not repeated for this release. Benchmark data and trained weights must be obtained or produced separately.
+
+## Citation
+
+```bibtex
+@misc{zou2026mafppo,
+  title={MA-FPPO: Multi-Agent Flow-Pretrained Policy Optimization},
+  author={Zou, Guowei and Chen, Haonan and Wang, Haitao and Zhang, Beiwen and Yan, Na and Wu, Hejun},
+  year={2026},
+  eprint={2609.32594},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2609.32594}
+}
+```
