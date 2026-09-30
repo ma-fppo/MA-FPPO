@@ -110,3 +110,5 @@ The included checks cover syntax, all recipe paths, finite pretraining updates i
   url={https://arxiv.org/abs/2609.32594}
 }
 ```
+
+See [release verification](VERIFICATION.md) for the tested installation and runtime paths and their scope.

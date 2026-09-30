@@ -17,6 +17,8 @@ import math
 
 import numpy as np
 from gym import error
+import pyglet
+from pyglet.gl import *
 
 RAD2DEG = 57.29577951308232
 

@@ -1,4 +1,5 @@
 """Real, fixed-map SMAC v1; no mock fallback and no SMACv2 wrapper."""
+from pathlib import Path
 import os
 
 
