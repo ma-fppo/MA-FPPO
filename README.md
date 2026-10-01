@@ -9,7 +9,7 @@ Sun Yat-sen University · National University of Singapore
   <a href="https://arxiv.org/abs/2609.32594"><img src="assets/resource-buttons/paper.svg" alt="Paper"></a>
   <a href="https://github.com/ma-fppo/MA-FPPO"><img src="assets/resource-buttons/code.svg" alt="Code"></a>
   <a href="https://huggingface.co/ma-fppo/MA-FPPO"><img src="assets/resource-buttons/models.svg" alt="Models"></a>
-  <a href="https://huggingface.co/datasets/Guowei-Zou/CoFlow-datasets"><img src="assets/resource-buttons/datasets.svg" alt="Datasets"></a>
+  <a href="https://huggingface.co/datasets/coflow-project/CoFlow-datasets"><img src="assets/resource-buttons/datasets.svg" alt="Datasets"></a>
   <a href="https://ma-fppo.github.io/assets/videos/presentation.mp4"><img src="assets/resource-buttons/video.svg" alt="Video"></a>
 </p>
 

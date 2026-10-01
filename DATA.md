@@ -1,6 +1,6 @@
 # Benchmark data and environments
 
-The shared [CoFlow dataset repository](https://huggingface.co/datasets/Guowei-Zou/CoFlow-datasets) currently provides MPE Tag and World arrays (verified September 26, 2026). It is not a complete mirror of the MA-FPPO benchmarks. Obtain Spread, local-observation MA-MuJoCo, SMAC, OMIGA, and SMACv2 from the sources and conversion instructions below. Dataset file layouts and observation adapters must match the selected recipe.
+The shared [CoFlow dataset repository](https://huggingface.co/datasets/coflow-project/CoFlow-datasets) currently provides MPE Tag and World arrays (verified September 26, 2026). It is not a complete mirror of the MA-FPPO benchmarks. Obtain Spread, local-observation MA-MuJoCo, SMAC, OMIGA, and SMACv2 from the sources and conversion instructions below. Dataset file layouts and observation adapters must match the selected recipe.
 
 Set `--data-root` to a directory with the following subdirectories. Dataset names are case sensitive.
 
